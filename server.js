@@ -8,12 +8,3 @@ app.get('/hello', function(req, res){
 });
 app.listen(port, ipaddress);
 
-
-
-/**
- *  main():  Main code.
- */
-var zapp = new SampleApp();
-zapp.initialize();
-zapp.start();
-
